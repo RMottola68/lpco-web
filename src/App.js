@@ -1,25 +1,56 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Nav from './Nav';
+import Navigation from './Navigation';
+import Contact from './Contact';
+import Services from './Services';
+import Community from './Community';
+import Home from './Home';
+
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faMapMarkerAlt, faClock, faPhone } from  "@fortawesome/free-solid-svg-icons";
+
+
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect
+} from "react-router-dom";
+
+library.add( faMapMarkerAlt, faClock, faPhone );
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+
+    <Router>
+        <Route exact path="/">
+            <Redirect to="/Home" />
+        </Route>     
+
+        <div className='App'>
+            <Navigation />
+            <Switch>
+              <Route path='/Home'>
+                  <Home />
+              </Route>
+              <Route path='/Services'>
+                  <Services />
+              </Route>
+              <Route path='/Community'>
+                <Community />
+              </Route>      
+
+              <Route path='/Contact'>
+                <Contact />
+              </Route>        
+
+            </Switch>    
+        </div>          
+    </Router>
+    
+)
 }
 
 export default App;
