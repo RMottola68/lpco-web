@@ -43,6 +43,6 @@ const Contact = (props) => {
 };
 
 export default Contact;
-// original google maps embed - https://www.google.com/maps/embed/v1/view?zoom=17&center=40.7289%2C-73.7814&key=AIzaSyAyiBn-5Jb8X96FPJMfx6W4TaGNWCAvW7Y
+
 
  
