@@ -2,3 +2,18 @@
   text-align: center;
 }
 
+body {
+  background: rgb(41, 43, 44);
+}
+
+@media only screen and (max-width: 991px) {
+  #homeCar{
+    max-width: 75%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #homeCar{
+    max-width: 35%;
+  }
+}

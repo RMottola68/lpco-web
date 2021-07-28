@@ -16,22 +16,23 @@ const Home = (props) => {
 
     return(
         
-        <div className={"container-fluid flex-column bg-dark text-light vh-100"} >
+        <div className={"container-fluid flex-column  text-light vh-100"} >
             
             
 
-            <div className={"jumbotron bg-dark text-light pt-3"} >
+            <div className={"jumbotron  text-light pt-3"} >
                 {/* <h1 className={"display-2 "}>LP & COMPANY HAIR DESIGN</h1> */}
                 <p className={"lead fs-2 fw-bold"}>Fresh Meadows' Premiere Full Service Salon</p>
                 <hr className={"my-4"} />
 
             </div>
-            <Container fluid={'md'} className={'py-5 '}>
-                <Carousel className={'bg-dark py-5'} >
+            <Container fluid={'md'} className={''}>
+                <Carousel className={' py-5'} prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon m-5 m-md-0" />} nextIcon={<span aria-hidden="true" className="carousel-control-next-icon m-5 m-md-0" />} >
                     <Carousel.Item>
                         
                         <img 
-                        className="d-block w-25 mx-auto"
+                        id='homeCar'
+                        className="d-block w-lg-25 mx-auto"
                         src={hairSix}
                         alt="Hairstyle with flowers"
                         />
@@ -44,7 +45,8 @@ const Home = (props) => {
                     <Carousel.Item>
                         
                         <img
-                        className="d-block w-25 mx-auto"
+                        id='homeCar'
+                        className="d-block w-lg-25 mx-auto"
                         src={hairSev}
                         alt="Woman with silver hair dye"
                         />
@@ -57,7 +59,8 @@ const Home = (props) => {
                     <Carousel.Item>
                         
                         <img
-                        className="d-block w-25 mx-auto"
+                        id='homeCar'
+                        className="d-block w-lg-25 mx-auto"
                         src={hairOne}
                         alt="Man's Skrillex Hairstyle"
                         />
@@ -72,7 +75,8 @@ const Home = (props) => {
                     <Carousel.Item>
                         
                         <img
-                        className="d-block w-25 mx-auto"
+                        id='homeCar'
+                        className="d-block w-lg-25 mx-auto"
                         src={hairTwo}
                         alt="Woman's Braided Hair"
                         />
@@ -87,7 +91,8 @@ const Home = (props) => {
                     <Carousel.Item>
                         
                         <img
-                        className="d-block w-25 mx-auto"
+                        id='homeCar'
+                        className="d-block w-lg-25 mx-auto"
                         src={hairMainTwo}
                         alt="Man smiling after short haircut"
                         />
@@ -105,7 +110,7 @@ const Home = (props) => {
             
             
             
-            <div className={'bg-dark'} >
+            <div className={''} >
                 <h4>Featured in several publications, our courteous and professional staff has served men and women in the New York Area for over twenty seven years. </h4>
                 <p className={"lead"}>
                     <Button variant={'danger'} size={'lg'} href={'/Services'} role={'button'}>Check Out Our Services Here!</Button>

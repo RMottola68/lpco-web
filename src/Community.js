@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Carousel, Button } from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
+import Carousel from 'react-bootstrap/Carousel'
 import communityTwo from './assets/community/comm_2.jpg';
 import communityThree    from './assets/community/comm_3.jpg';
 import communityFour from './assets/community/comm_4.jpg';
@@ -13,11 +14,11 @@ import communityTen from './assets/community/comm_10.jpg';
 const Community = (props) => {
 
     return(
-        <div className={'column-fluid bg-dark vh-100'} >
+        <div className={'column-fluid vh-100'} >
             
             <Container fluid={'md'} className={'py-5 '}>
                 <h3 className={'text-light'}>We pride ourselves on bringing smiles and positivity to our community! </h3>
-                <Carousel className={'bg-dark py-5'} >
+                <Carousel className={'py-5'} prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon m-5" />} nextIcon={<span aria-hidden="true" className="carousel-control-next-icon m-5" />}>
                     <Carousel.Item>
                         
                         <img 

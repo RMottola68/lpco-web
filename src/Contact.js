@@ -6,7 +6,7 @@ const Contact = (props) => {
 
     return(
         <div>
-            <div className={'col col-sm container-fluid bg-dark vh-100 '}>
+            <div className={'col col-sm container-fluidvh-100 '}>
                 
                 <div className={'row inline-flex flex-fill flex-column row-flex'}>
                     <div className={'row '}>  
