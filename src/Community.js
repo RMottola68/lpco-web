@@ -9,20 +9,22 @@ import communitySix from './assets/community/comm_6.jpg';
 import communitySeven from './assets/community/comm_7.jpg';
 import communityEight from './assets/community/comm_8.jpg';
 import communityNine from './assets/community/comm_9.jpg';
-import communityTen from './assets/community/comm_10.jpg';
+import communityTen from './assets/community/comm_10_edit.png';
+
 
 const Community = (props) => {
 
     return(
         <div className={'column-fluid vh-100'} >
             
-            <Container fluid={'md'} className={'py-5 '}>
+            <Container fluid={'md'} className={''}>
                 <h3 className={'text-light'}>We pride ourselves on bringing smiles and positivity to our community! </h3>
-                <Carousel className={'py-5'} prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon m-5" />} nextIcon={<span aria-hidden="true" className="carousel-control-next-icon m-5" />}>
+                <Carousel controls={'false'} className={'py-5'} prevIcon={<span aria-hidden='true' className="carousel-control-prev-icon m-5 m-md-0" />} nextIcon={<span aria-hidden="true" className="carousel-control-next-icon m-5 m-md-0" />}>
                     <Carousel.Item>
                         
                         <img 
-                        className="d-block w-75 mx-auto"
+                        id={'commIMG'}
+                        className="d-block mx-auto"
                         src={communityTwo}
                         alt="Charity piano playing at the cut-a-thon"
                         />
@@ -36,7 +38,8 @@ const Community = (props) => {
                     <Carousel.Item>
                         
                         <img 
-                        className="d-block w-75 mx-auto"
+                        id={'commIMG'}
+                        className="d-block mx-auto"
                         src={communityThree}
                         alt="Santa hugging a disabled girl"
                         />
@@ -50,7 +53,8 @@ const Community = (props) => {
                     <Carousel.Item>
                         
                         <img 
-                        className="d-block w-75 mx-auto"
+                        id={'commIMG'}
+                        className="d-block mx-auto"
                         src={communityFour}
                         alt="Santa and friends at a charity"
                         />
@@ -64,7 +68,8 @@ const Community = (props) => {
                     <Carousel.Item>
                         
                         <img 
-                        className="d-block w-75 mx-auto"
+                        id={'commIMG'}
+                        className="d-block mx-auto"
                         src={communityFive}
                         alt="Santa and the girls at the cut-a-thon"
                         />
@@ -78,7 +83,8 @@ const Community = (props) => {
                     <Carousel.Item>
                         
                         <img 
-                        className="d-block w-75 mx-auto"
+                        id={'commIMG'}
+                        className="d-block mx-auto"
                         src={communitySix}
                         alt="Playing the piano with the marines at the cut-a-thon"
                         />
@@ -92,7 +98,8 @@ const Community = (props) => {
                     <Carousel.Item>
                         
                         <img 
-                        className="d-block w-75 mx-auto"
+                        id={'commIMG'}
+                        className="d-block mx-auto"
                         src={communitySeven}
                         alt="Marine taking a picture at the cut-a-thon charity"
                         />
@@ -106,7 +113,8 @@ const Community = (props) => {
                     <Carousel.Item>
                         
                         <img 
-                        className="d-block w-75 mx-auto"
+                        id={'commIMG'}
+                        className="d-block mx-auto"
                         src={communityEight}
                         alt="Marine handing out a gift at the cut-a-thon"
                         />
@@ -120,7 +128,8 @@ const Community = (props) => {
                     <Carousel.Item>
                         
                         <img 
-                        className="d-block w-75 mx-auto"
+                        id={'commIMG'}
+                        className="d-block mx-auto"
                         src={communityNine}
                         alt="Larry, the Marines, and the girls smiling for a photo at the cut-a-thon"
                         />
@@ -129,14 +138,15 @@ const Community = (props) => {
                         
                         
                         </Carousel.Caption>
-                    </Carousel.Item>
+                    </Carousel.Item>                
 
                     <Carousel.Item>
                         
                         <img 
-                        className="d-block w-75 mx-auto"
+                        id={'commIMG'}
+                        className="d-block mx-auto"
                         src={communityTen}
-                        alt="The LP&Company girls posing with santa at the cut-a-thon charity event"
+                        alt="The girls and santa posing for a picture at the cut-a-thon"
                         />
                         
                         <Carousel.Caption>
@@ -144,10 +154,6 @@ const Community = (props) => {
                         
                         </Carousel.Caption>
                     </Carousel.Item>
-
-                    
-
-                    
                     
                 </Carousel>
             </Container>
