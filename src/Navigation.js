@@ -10,7 +10,7 @@ const Navigation = (props) => {
 
     return (
         
-        <Navbar bg="light" expand="lg" expanded={expanded}>
+        <Navbar bg="light" expand="lg" expanded={expanded} >
             <Container  className={'d-flex justify-content-between'}>
                 <Navbar.Brand href="Home" className={'col-6 '}>
                     <div className={'col-2 col-lg-12'}>
@@ -29,9 +29,9 @@ const Navigation = (props) => {
                     <h5 className={''}>LP & COMPANY HAIR DESIGN</h5>
                 </div> */}
 
-                <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav"/>
+                <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
                 
-                    <Navbar.Collapse id="basic-navbar-nav" >
+                    <Navbar.Collapse id="basic-navbar-nav">
                         
                         <Nav className="col-12">
                             <Nav.Link href="#home" onClick={() => setExpanded(false)}><NavLink to={'/Home'} ><Button type={'button'} variant="outline-danger" className={''}>Home</Button></NavLink></Nav.Link>

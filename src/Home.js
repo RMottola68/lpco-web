@@ -111,7 +111,7 @@ const Home = (props) => {
             
             
             <div className={''} >
-                <h4>Featured in several publications, our courteous and professional staff has served men and women in the New York Area for over twenty seven years. </h4>
+                <h4>Featured in several publications, our courteous and professional staff has served men and women in the New York Area for over forty years. </h4>
                 <p className={"lead"}>
                     <Button variant={'danger'} size={'lg'} href={'/Services'} role={'button'}>Check Out Our Services Here!</Button>
                 </p>

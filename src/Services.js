@@ -63,8 +63,7 @@ const Services = (props) => {
                         <h4 className={'d-flex justify-content-between list-group-item'}>Silk Wrap<span className={''}>$48</span></h4>
                         <h4 className={'d-flex justify-content-between text-start list-group-item'}>Change of Polish<span className={'d-flex justify-content-end w-100'}>Fingers $7 <br></br>Toes $15</span></h4>
                         <h4 className={'d-flex justify-content-between text-start list-group-item'}>Change of French Polish<span className={'d-flex justify-content-end w-100 my-auto'}>Fingers $9 <br></br>Toes $15-$20</span></h4>
-                        <h4 className={'d-flex justify-content-between list-group-item'}>Full Set with Tips<span className={''}>$45</span></h4>
-                        <h4 className={'d-flex justify-content-between list-group-item'}>Full Set with Wraps Only<span className={''}>$30</span></h4>
+                        <h4 className={'d-flex justify-content-between list-group-item'}>Full Set with Tips<span className={''}>$45</span></h4>                        
                         <h4 className={'d-flex justify-content-between text-start list-group-item'}>Glue Down<span className={'d-flex justify-content-end w-100'}>$5 <br/>Single Wrap $3</span></h4>
                         <h4 className={'d-flex justify-content-between list-group-item'}>Single Tip with Wrap<span className={''}>$5</span></h4>
                         <h3 className={'text-decoration-underline list-group pb-3'}>S P A <br/>S E R V I C E S</h3>
