@@ -10,7 +10,7 @@ import communitySeven from './assets/community/comm_7.jpg';
 import communityEight from './assets/community/comm_8.jpg';
 import communityNine from './assets/community/comm_9.jpg';
 import communityTen from './assets/community/comm_10_edit.png';
-
+import communityQCP from './assets/QCP.mp4';
 
 const Community = (props) => {
 
@@ -19,19 +19,19 @@ const Community = (props) => {
             
             <Container fluid={'md'} className={''}>
                 <h3 className={'text-light'}>We pride ourselves on bringing smiles and positivity to our community! </h3>
-                {/* <br/>
+                <br/>
                 <div id={'charityVideo'}>
                     <iframe 
                     width="75%"
                     height="auto"
-                    src="https://www.youtube.com/embed/AQ2uPSo0oFA" 
-                    title="YouTube video player" 
+                    src={communityQCP}
+                    title="video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowfullscreen>
 
                     </iframe>
-                </div> */}
+                </div>
 
                 <Carousel controls={'false'} className={'py-5'} prevIcon={<span aria-hidden='true' className="carousel-control-prev-icon m-5 m-md-0" />} nextIcon={<span aria-hidden="true" className="carousel-control-next-icon m-5 m-md-0" />}>
                     <Carousel.Item>
