@@ -47,7 +47,7 @@ const Services = (props) => {
                         <h4 className={'d-flex justify-content-between list-group-item'}>Tummy Line<span className={''}>$7-$9</span></h4>
                         <h4 className={'d-flex justify-content-between list-group-item'}>Half-Arm<span className={''}>$18</span></h4>
                         <h4 className={'d-flex justify-content-between list-group-item'}>Full-Arm<span className={''}>$36</span></h4>
-                        <h4 className={'d-flex justify-content-between list-group-item'}>Full-Leg W/ Bikini<span className={''}>$45-$50</span></h4>
+                        <h4 className={'d-flex justify-content-between list-group-item'}>Full-Leg W/ Bikini<span className={''}>$50</span></h4>
 
                         <h3 className={'text-decoration-underline text-danger'}>TUESDAY & WEDNESDAY SPECIALS</h3>
                         <h4 className={'d-flex justify-content-between text-danger list-group-item'}>Full-Leg<span className={''}>$35</span></h4>
@@ -62,7 +62,7 @@ const Services = (props) => {
                         <h4 className={'d-flex justify-content-between list-group-item'}>Powder Fill-In<span className={''}>$32</span></h4>
                         <h4 className={'d-flex justify-content-between list-group-item'}>Silk Wrap<span className={''}>$50</span></h4>
                         <h4 className={'d-flex justify-content-between text-start list-group-item'}>Change of Polish<span className={'d-flex justify-content-end w-100'}>Fingers $10 <br></br>Toes $15</span></h4>
-                        <h4 className={'d-flex justify-content-between text-start list-group-item'}>Change of French Polish<span className={'d-flex justify-content-end w-100 my-auto'}>Fingers $10 <br></br>Toes $20</span></h4>
+                        <h4 className={'d-flex justify-content-between text-start list-group-item'}>Change of French Polish<span className={'d-flex justify-content-end w-100 my-auto'}>Fingers $13 <br></br>Toes $20</span></h4>
                         <h4 className={'d-flex justify-content-between list-group-item'}>Full Set with Tips<span className={''}>$50</span></h4>                        
                         <h4 className={'d-flex justify-content-between text-start list-group-item'}>Glue Down<span className={'d-flex justify-content-end w-100'}>$8 <br/>Single Wrap $5</span></h4>
                         <h4 className={'d-flex justify-content-between list-group-item'}>Single Tip with Wrap<span className={''}>$8</span></h4>
@@ -70,9 +70,9 @@ const Services = (props) => {
                         <h4 className={'d-flex justify-content-between list-group-item'}>Classic Pedicure<span className={''}>$28</span></h4>
                         <p className={'fs-5 my-0 text-decoration-underline'}>30 minutes</p>
                         <p className={'fs-5'}>This treatment includes an Aqua Therapy Soak, lower leg massage, exfoliation, classic nail care & polish</p>
-                        <h4 className={'d-flex justify-content-between list-group-item'}>French Pedicure<span className={''}>$28</span></h4>
+                        <h4 className={'d-flex justify-content-between list-group-item'}>French Pedicure<span className={''}>$33</span></h4>
 
-                        <h4 className={'d-flex justify-content-between list-group-item'}>Spa Pedicure<span className={''}>$48</span></h4>
+                        <h4 className={'d-flex justify-content-between list-group-item'}>Spa Pedicure<span className={''}>$50</span></h4>
                         <p className={'fs-5 my-0 text-decoration-underline'}>45 minutes</p>
                         <p className={'fs-5 my-0'}>Experience the Natural Benefits of a Sea Rock Soak, Alpha Hydroxy Sea Scrub, Hydrating Marine Mask, and a Hot Oil Massage to finish.</p>
                         <p className={'fs-5 my-0 pt-3'}>Finally, if you can, choose your nail color!</p>
