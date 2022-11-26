@@ -16,7 +16,7 @@ const Services = (props) => {
                         <p className={'my-0'}>(Includes Blowdry)</p>
                         <p className={'mt-0'}>(Prices Vary on Detailed Designs, Longer Length of Hair, and Designer's Time)</p>
                         <h4 className={'d-flex justify-content-between list-group-item'}>Haircuts<span className={''}>$35-$75</span></h4>
-                        <h4 className={'d-flex justify-content-between list-group-item'}>Blowdry<span className={''}>$25-$55</span></h4>
+                        <h4 className={'d-flex justify-content-between list-group-item'}>Blowdry<span className={''}>$37-$55</span></h4>
                         <h4 className={'d-flex justify-content-between text-start list-group-item'}>Children's Haircuts Under 12<span className={'my-auto align-text-start'}>$20-$25</span></h4>
                         <h4 className={'d-flex justify-content-between list-group-item'}>Up-Do / Curling<span className={''}>$85-$150</span></h4>
                         <h4 className={'d-flex justify-content-between list-group-item'}>Keratin Treatment<span className={''}>$103/HR</span></h4>
