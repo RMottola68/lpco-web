@@ -7,6 +7,8 @@ const Services = (props) => {
             
             <div className={"jumbotron pb-5 text-light"}>
                 <h1 className={"display-2 border-top border-bottom"}>Services</h1>
+                <h4 className={'text-danger'}>There is a 3% surcharge on credit card payments</h4>
+                <h4 className={'text-danger'}>There is no surcharge for debit card payments</h4>
             </div>
 
             <div className={'container'}>
