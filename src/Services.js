@@ -17,7 +17,7 @@ const Services = (props) => {
                         <h3 className={'text-decoration-underline list-group'}>H A I R S T Y L E</h3>
                         <p className={'my-0'}>(Includes Blowdry)</p>
                         <p className={'mt-0'}>(Prices Vary on Detailed Designs, Longer Length of Hair, and Designer's Time)</p>
-                        <h4 className={'d-flex justify-content-between align-center list-group-item'}>Haircuts<span className={'d-flex'}>$35<h6 className={'text-danger'}>$35.05</h6>-$75<h6 className={'text-danger'}>$77.25</h6></span></h4>
+                        <h4 className={'d-flex justify-content-between align-center list-group-item'}>Haircuts<span className={'d-flex'}>$35<h6 className={'text-danger'}>$36.05</h6>-$75<h6 className={'text-danger'}>$77.25</h6></span></h4>
                         <h4 className={'d-flex justify-content-between list-group-item'}>Blowdry<span className={'d-flex'}>$37<h6 className={'text-danger'}>$38.11</h6>-$55<h6 className={'text-danger'}>$56.65</h6></span></h4>
                         <h4 className={'d-flex justify-content-between text-start list-group-item'}>Children's Haircuts Under 12<span className={'d-flex ml-5 my-auto  align-text-start'}>$20<h6 className={'text-danger'}>$20.6</h6>-$25<h6 className={'text-danger'}>$25.75</h6></span></h4>
                         <h4 className={'d-flex justify-content-between list-group-item'}>Up-Do / Curling<span className={'d-flex'}>$85<h6 className={'text-danger'}>$87.55</h6>-$150<h6 className={'text-danger'}>$154.5</h6></span></h4>
