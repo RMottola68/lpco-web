@@ -11,7 +11,7 @@ const Navigation = (props) => {
     return (
         
         <Navbar bg="light" expand="lg" expanded={expanded} >
-            <Container  className={'d-flex justify-content-between'}>
+            <Container  className={'d-flex justify-content-center'}>
                 <Navbar.Brand href="Home" className={'col-6 '}>
                     <div className={'col-2 col-lg-12'}>
                     <img
@@ -28,7 +28,7 @@ const Navigation = (props) => {
                 {/* <div className={'col-4 col-sm-4'} >
                     <h5 className={''}>LP & COMPANY HAIR DESIGN</h5>
                 </div> */}
-
+                {/*
                 <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
                 
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -41,6 +41,7 @@ const Navigation = (props) => {
                             
                         </Nav>
                     </Navbar.Collapse>
+                */}
             </Container>
         </Navbar>
 

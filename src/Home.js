@@ -22,10 +22,22 @@ const Home = (props) => {
 
             <div className={"jumbotron  text-light pt-3"} >
                 {/* <h1 className={"display-2 "}>LP & COMPANY HAIR DESIGN</h1> */}
-                <p className={"lead fs-2 fw-bold"}>Fresh Meadows' Premiere Full Service Salon</p>
+                <h1 className={"lead fs-2 fw-bold"}>Goodbyes are Never Easy</h1>
+                <h2>
+                    I am so proud to have each and everyone of the good clients and staff of LP and Company in my life<br/>
+                    Forty Four years!<br/>
+                    We evolved in styles from giant permed hair spraying with Spritz Forte to doing sleek straight hair with Irons and  Keratin. Staff members came and went. We lost some who we worked with shoulder to shoulder every day. Their spirit remained . Mark , Denise . Clients who we shared our lives with were taken from us.  But we carried on .We all laughed . We all cried , but we did it together. <br/> 
+                    The feeling of being safe and taken care of never went out of style! I am proud of that.  I am proud how we all gave back to the community. <br/> 
+                    Christmas Parties for people with disabilities dating back to 1985. Anyone who was there knew.  Thank you all! 
+                    Thank you all for making LP and company a beautiful place.  Both clients and staff.<br/>
+                    Keep us in your hearts for a while.<br/>
+                    But carry on and make the world a beautiful place!<br/>
+                </h2>
                 <hr className={"my-4"} />
 
+            
             </div>
+            {/*
             <Container fluid={'md'} className={''}>
                 <Carousel className={' py-5'} prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon m-5 m-md-0" />} nextIcon={<span aria-hidden="true" className="carousel-control-next-icon m-5 m-md-0" />} >
                     <Carousel.Item>
@@ -110,12 +122,14 @@ const Home = (props) => {
             
             
             
-            <div className={''} >
+            
+            <div className={''} > 
                 <h4>Featured in several publications, our courteous and professional staff has served men and women in the New York Area for over forty years. </h4>
                 <p className={"lead"}>
                     <Button variant={'danger'} size={'lg'} href={'/Services'} role={'button'}>Check Out Our Services Here!</Button>
                 </p>
             </div>
+            */}
 
                  
 
