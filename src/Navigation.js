@@ -12,8 +12,8 @@ const Navigation = (props) => {
         
         <Navbar bg="light" expand="lg" expanded={expanded} >
             <Container  className={'d-flex justify-content-center'}>
-                <Navbar.Brand href="Home" className={'col-6 '}>
-                    <div className={'col-2 col-lg-12'}>
+                <Navbar.Brand href="Community" className={'col-6 '}>
+                    <div className={'col-6 col-lg-12'}>
                     <img
                         alt=""
                         src={LPLOGONONUM}
@@ -21,13 +21,10 @@ const Navigation = (props) => {
                         height="100"
                         className="d-inline-block align-middle me-auto"
                     /> {' '}
+                    <h1 className={''}>LP & COMPANY HAIR DESIGN</h1>
                     </div>
 
                 </Navbar.Brand>
-
-                {/* <div className={'col-4 col-sm-4'} >
-                    <h5 className={''}>LP & COMPANY HAIR DESIGN</h5>
-                </div> */}
                 {/*
                 <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
                 

@@ -36,16 +36,19 @@ function App() {
               <Route path='/Home'>
                   <Home />
               </Route>
+              {/*
               <Route path='/Services'>
                   <Services />
               </Route>
+              */} 
               <Route path='/Community'>
                 <Community />
               </Route>      
-
+              {/*
               <Route path='/Contact'>
                 <Contact />
-              </Route>        
+              </Route>  
+              */} 
 
             </Switch>    
         </div>          
